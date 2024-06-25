@@ -61,7 +61,7 @@ export default function App() {
                     {/* Mostre cada filme abaixo desta linha */}
                     {/* Cada filme deve estar dentro do seu próprio elemento <tr> */}
 
-                    <tr key={m.title}>
+                    <tr key={m.id}>
                         <td>{m.title}</td>
                         <td>{m.year}</td>
                         <td>{m.rating}</td>

@@ -9,21 +9,21 @@ function Filter() {
         <>
             <div className="filters">
                 <div>
-                    <p>Filter by state</p>
+                    <p>Filtrar por estado</p>
                     <div className="badges">
                         <div 
                         className={`badge ${store.filterBy === `todo` ? `selected}` : ''}`}
                         onClick={()=>store.setFilterBy('todo')}>
-                            To-Do
+                            A fazer
                         </div>
                         <div className={`badge ${store.filterBy === `done` ? `selected}` : ''}`}
                         onClick={()=>store.setFilterBy('done')}>
-                            Done
+                            Feitas
                         </div>
                         {
                             store.filterBy &&
                             <span onClick={()=>store.setFilterBy('')} className="clear">
-                                x clear
+                                x limpar
                             </span>
                         }
                     </div>

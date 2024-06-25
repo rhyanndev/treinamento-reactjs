@@ -15,7 +15,7 @@ function Todo({ todo }) {
                   })}
                 className="erase"
             >
-                    x erase
+                    x apagar
             </button>
             <h3>
                 {todo.title}
@@ -33,7 +33,7 @@ function Todo({ todo }) {
                     defaultChecked={todo.isDone} 
                 />
                 <label>
-                    {!todo.isDone ? 'To-Do' : 'Done'}
+                    {!todo.isDone ? 'A fazer' : 'Feitas'}
                 </label>
             </div>
         </div>

@@ -15,7 +15,7 @@ function Header({ appName }) {
                     </h1>
                 </div>
                 <div className="header-side">
-                    <button onClick={()=>{store.setModalIsActive(true)}} className="btn secondary">+ Add Task</button>
+                    <button onClick={()=>{store.setModalIsActive(true)}} className="btn secondary">+ Adicionar Tarefa</button>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@ function App() {
     <>
       <main>
         <TodosProvider>
-        <Header appName="To-Do List with React" />
+        <Header appName="Lista de Tarefas com React" />
         <Home />
         </TodosProvider>
 

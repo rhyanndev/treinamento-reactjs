@@ -23,12 +23,12 @@ function AddTodoModal() {
     return (
     <>
         <div className="form">      
-            <h3>Add a new task</h3>
-            <label htmlFor="title">Title *</label>
+            <h3>Adicionar nova tarefa</h3>
+            <label htmlFor="title">Título *</label>
             <input type="text" name="title" placeholder="Enter a title..." /><br />
-            <label htmlFor="description">Description *</label>
+            <label htmlFor="description">Descrição *</label>
             <textarea name="description" rows="4" placeholder="Enter a description..." /><br />
-            <button onClick={addTaskHandler} className="btn gray">Add Task</button>
+            <button onClick={addTaskHandler} className="btn gray">Adicionar</button>
         </div>
     </>
     )
